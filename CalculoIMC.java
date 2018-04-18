@@ -18,6 +18,18 @@ public class CalculoIMC {
         float imc = peso/(altura*altura);
         System.out.println(imc);
         
+        if (imc>30) {
+        System.out.println("Su imc es mayor a 30 por lo tanto tiene obesidad");
+        } else {
+            if(imc<25 && imc>30){
+                System.out.println("Su imc esta entre 25 y 30 por lo tanto tiene sobrepeso");
+            }
+            else{
+                System.out.println("Su imc es menor a 25 por lo tanto su peso es normal");
+            }
+
+        }
+        
         
             
             
