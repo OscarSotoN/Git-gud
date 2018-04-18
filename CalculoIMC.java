@@ -19,10 +19,12 @@ public class CalculoIMC {
         System.out.println(imc);
         
         if (imc>30) {
-        System.out.println("Su imc es mayor a 30 por lo tanto tiene sobrepeso");
+        System.out.println("Su imc es mayor a 30 por lo tanto tiene obesidad");
         } else {
-
-        
+            if(imc<25 && imc>30){
+                System.out.println("Su imc esta entre 25 y 30 por lo tanto tiene sobrepeso");
+            }
+            
 
         }
         
